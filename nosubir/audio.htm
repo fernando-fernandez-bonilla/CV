@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h3>Ejemplos de audio</h3>
+<!--
+    <video width="320" height="240" controls preload autoplay>
+      <source src="MOOC.m4v" type=video/mp4>
+      <source src="MOOC.webm" type=video/webm>
+    </video><br>
+-->
+<!--
+    <audio src="MOOC.webm"></audio>
+<audio autoplay src="MOOC.webm"></audio>
+<audio src="MOOC.webm" autoplay loop></audio>
+<audio src="MOOC.webm" preload="none"></audio>
+-->
+<br>
+<!--
+<audio id="mireproductor" src="MOOC.webm"></audio>
+<div>
+    <button onclick="document.getElementById('player').play()">Play</button>
+    <button onclick="document.getElementById('player').pause()">Pausa</button>
+    <button onclick="document.getElementById('player').load()">Stop</button>
+    <button onclick="document.getElementById('player').volume += .1">Subir volumen</button>
+    <button onclick="document.getElementById('player').volume -= .1">Bajar volumen</button>
+</div>
+-->
+
+<audio controls>
+    <source src="MOOC.webm" type="audio/ogg">
+    <source src="MOOC.webm" type="audio/mpeg">
+    <source src="MOOC.webm" type="audio/wav">
+</audio>
+
+<audio controls>
+    <source src="MOOC.webm" type="audio/ogg">
+    <source src="MOOC.webm" type="audio/mpeg">
+    <source src="MOOC.webm" type="audio/wav">
+        <object type="application/x-shockwave-flash" data="player.swf?miArchivo=MOOC.webm">
+            <param name="movie" value="player.swf?miArchivo=MOOC.webm">
+        </object>
+</audio>
+
+
+<audio controls>
+    <source src="MOOC.webm" type="audio/ogg">
+    <source src="MOOC.webm" type="audio/mpeg">
+    <source src="MOOC.webm" type="audio/wav">
+        <object type="application/x-shockwave-flash" data="player.swf?miArchivo=MOOC.webm">
+            <param name="movie" value="player.swf?miArchivo=MOOC.webm">
+            <a href="MOOC.webm">Descárgate aquí mi archivo de audio</a>
+        </object>
+</audio>
+
+tres modos de audio
+
+    
+  </body>
+</html>
